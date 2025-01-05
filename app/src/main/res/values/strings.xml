@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">IncogniTalk</string>
+    <string name="email">Email</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="account_exist">Account Exist</string>
+    <string name="email1">Email</string>
+    <string name="www">Email</string>
+    <string name="wwdwd">Password</string>
+    <string name="jd">LogIN</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="groups">Groups:</string>
+    <string name="joingroup">JoinGroup</string>
+    <string name="creategroup">CreateGroup</string>
+    <string name="create_group">Create Group</string>
+    <string name="unique_group_name">Unique Group Name</string>
+    <string name="create">Create</string>
+    <string name="join_group">Join Group</string>
+    <string name="join">Join</string>
+    <string name="enter_group_name">Enter Group Name</string>
+    <string name="messages">Messages</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="enter_unique_group_name">Enter Unique Group Name</string>
+    <string name="create_groupq">Create Group</string>
+    <string name="join_grouphh">Join Group</string>
+    <string name="enter_group_namea">Enter Group Name</string>
+    <string name="no">Join Group</string>
+    <string name="huu">Create Group</string>
+    <string name="iini" />
+    <string name="enter_fictional_name">Enter Fictional Name</string>
+</resources>

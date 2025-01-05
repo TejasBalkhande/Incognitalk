@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#70aa16"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#98389b"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-black"
+                android:text="GroupName"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="39dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/imageView9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/incotalk" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_height="4dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerMessage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/TextMessage"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:background="@drawable/edit_text_border"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:hint="Type a message" />
+
+            <Button
+                android:id="@+id/SendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/box_border"
+                android:text="Send" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

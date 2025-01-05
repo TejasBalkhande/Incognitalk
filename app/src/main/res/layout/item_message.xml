@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_border"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="2dp"
+    android:padding="8dp">
+
+    <!-- Username TextView -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true" />
+
+    <!-- Timestamp TextView -->
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:11"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@id/usernameTextView" />
+
+    <!-- Message TextView -->
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginTop="4dp"
+        android:text="Message"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:padding="8dp" />
+
+</RelativeLayout>
